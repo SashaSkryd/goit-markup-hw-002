@@ -13,7 +13,7 @@ rgba(255, 255, 255, 0.6); футер ссылки
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --primary-white-color: #ff0fff;
+  --primary-white-color: #ffffff;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -28,7 +28,7 @@ body {
 /*header*/
 .link-logotipe {
   font-family: "Raleway", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
@@ -60,8 +60,11 @@ body {
   color: var(--accent-color);
 }
 /*hero*/
+.hero-section {
+  background-color: #2F303A;
+}
 .hero-title {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
@@ -96,6 +99,7 @@ body {
   color: var(--title-text-color);
   width: 270px;
   height: 16px;
+  text-transform: uppercase;
 }
 .list-deskription {
   font-weight: 400;
@@ -104,10 +108,10 @@ body {
   letter-spacing: 0.03em;
 }
 /*What we are doing*/
-.work-comand-title {
-  font-weight: 900;
+.section-title {
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
@@ -129,6 +133,12 @@ body {
   letter-spacing: 0.03em;
 }
 /*footer*/
+.footer {
+  background-color: #2F303A;
+}
+.footer-logo {
+  color: #ffffff;
+}
 .connect-footer {
   font-weight: 400;
   font-size: 14px;
@@ -161,7 +171,7 @@ body {
   background-color: var(--accent-color);
 }
 .portfolio-title{
-font-weight: 900;
+font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
