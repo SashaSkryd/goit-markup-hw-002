@@ -48,15 +48,15 @@ body {
 .link-header:focus {
   color: var(--accent-color);
 }
-.konekt-header {
+.connect-header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.333;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.konekt-header:hover,
-.konekt-header:focus {
+.connect-header:hover,
+.connect-header:focus {
   color: var(--accent-color);
 }
 /*hero*/
@@ -67,6 +67,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
+  text-transform: uppercase;
 }
 .hero-btn {
   width: 200px;
@@ -127,7 +128,7 @@ body {
   letter-spacing: 0.03em;
 }
 /*footer*/
-.konekt-footer {
+.connect-footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
